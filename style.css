@@ -23,13 +23,13 @@ html {
 body {
   font-family: 'Manrope', sans-serif;
   color: var(--color-light--2);
-  font-weight: 400;
-  line-height: 1.6;
+  font-weight: 200;
+  line-height: 1;
   height: 100vh;
   overscroll-behavior-y: none;
 
   background-color: #fff;
-  padding: 2.5rem;
+  padding: 1rem;
 
   display: flex;
 }
@@ -42,9 +42,9 @@ a:visited {
 
 /* SIDEBAR */
 .sidebar {
-  flex-basis: 50rem;
+  flex-basis: 40rem;
   background-color: var(--color-dark--1);
-  padding: 3rem 5rem 4rem 5rem;
+  padding: 2rem 3rem 2rem 3rem;
   display: flex;
   flex-direction: column;
 }
